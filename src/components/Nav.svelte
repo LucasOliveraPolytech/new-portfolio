@@ -19,7 +19,8 @@
   {#if visible}
     <div class="header" transition:fly="{{x: -200, duration: calcDuration(0)}}">
       <NavLink to="/" header>
-        <h1>Santiago<br>Quintana</h1>
+        <!-- <h1>AgileTalk</h1> -->
+        <img class="logo" src="images/titleDark.png" alt=""/>
       </NavLink>
     </div>
     <div class="items">
@@ -70,6 +71,10 @@
       margin-bottom: 0;
       margin-right: 10px;
     }
+  }
+
+  .logo {
+    max-width: 150px;
   }
 
 </style>

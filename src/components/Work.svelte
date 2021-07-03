@@ -1,10 +1,25 @@
 <script>
   import { fade } from 'svelte/transition';
+  import YouTube from 'svelte-youtube'
   export let header
   export let body
   export let media
   export let outLink
   export let mediaWidth = '65%'
+
+  const options = {
+    height: '390',
+    width: '640',
+    //  see https://developers.google.com/youtube/player_parameters
+    playerVars: {
+      autoplay: 1
+    }
+  };
+
+  function onReady(event) {
+    // access to player in all event handlers via event.target
+    event.target.pauseVideo();
+  }
 </script>
 
 <div
@@ -12,7 +27,8 @@
   style='--media-width: {mediaWidth}'
   in:fade={{delay: 300, duration: 500}} out:fade>
   <div class='media'>
-    <img src={media} alt={header} />
+    <YouTube videoId="BAYw_orzBR0" />
+    <!-- <img src={media} alt={header} /> -->
   </div>
   <div class='text-container'>
     <div class='text'>
