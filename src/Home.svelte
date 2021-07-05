@@ -1,10 +1,13 @@
 <script>
   import { fade } from 'svelte/transition'
   import Work from './components/Work.svelte'
+  const link = "<a href='https://catalyticsound.com/''>Catalytic Sound</a>"
   const me = {
-    title: "Software engineer/dancer based in Chicago, IL",
-    description: "<p>I'm currently the lead engineer for <a href='https://catalyticsound.com/''>Catalytic Sound</a>. At any given time I'm fine tuning my homelab, working on my infosec skills, redesigning this website for the 100th time, or knitting.</p>",
-    media: "images/santiagoTechnicalWide.jpg"
+    title: "AgileTalk",
+    description: "<p>This is a product of Agile Bots Synthetics Corp, a fictional company created for such product.</p>",
+    media: {
+      videoId: "BAYw_orzBR0"
+    }
   }
 </script>
 

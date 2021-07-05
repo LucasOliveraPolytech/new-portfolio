@@ -27,8 +27,11 @@
   style='--media-width: {mediaWidth}'
   in:fade={{delay: 300, duration: 500}} out:fade>
   <div class='media'>
-    <YouTube videoId="BAYw_orzBR0" />
-    <!-- <img src={media} alt={header} /> -->
+    {#if media.videoId}
+      <YouTube videoId={media.videoId} />
+    {:else}
+      <img src={media} alt={header} />
+    {/if}
   </div>
   <div class='text-container'>
     <div class='text'>
@@ -44,9 +47,9 @@
 </div>
 
 <style>
-  img {
+  /* img {
     width: 100%;
-  }
+  } */
 
   a {
     color: red;
@@ -76,6 +79,7 @@
   img {
     object-fit: contain;
     flex: 1;
+    max-width: 80%;
     max-height: 100%;
   }
 
