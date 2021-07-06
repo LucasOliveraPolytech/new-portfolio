@@ -14,15 +14,15 @@
   let navigating = false
   const navItems = [
     { route: 'bio',
-      title: 'Bio'
+      title: 'Acerca del proyecto'
     },
     {
       route: 'art',
-      title: 'Art'
+      title: 'Los grupos'
     },
     {
       route: 'tech',
-      title: 'Tech'
+      title: 'Características'
     },
     {
       route: 'contact',
@@ -68,6 +68,7 @@
     flex-direction: row;
     justify-content: space-between;
     height: 100%;
+    background-color: rgb(243, 212, 172);
   }
 
   .content {

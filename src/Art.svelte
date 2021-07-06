@@ -3,53 +3,53 @@
 
   const organization = [
     {
+      title: "Nivel de Programa",
+      description: "<p>El nivel de programa se compuso por Lucas Olivera (Product Manager), Magalí Boulanger (Release Train Engineer) y Joshua Corino (System Architect)<p>",
+      outLink: "",
+      media: "images/a_dark.png"
+    },
+    {
       title: "Croissant",
-      description: "<p>El grupo Croissant compuesto por {insertar gente} se encargó principalmente del manejo de roles dentro del sistema</p>",
+      description: "<p>El equipo Croissant compuesto por Martin Lorenzo (Product Owner), Federico Gregorio (Scrum Master), Ramiro Orella, Santiago Ithurralde, Eliel Viviant y Leonel Benavidez.</p>",
       outLink: "",
       media: "images/a_dark.png"
     },
     {
       title: "Mignon",
-      description: "<p>A broader interpretation of the structures and processes that fascinate me. Devised in collaboration with Sam, sestina uses the European poetic form to generate a structure for both music and movement. The sestina works by using six end-words and rearranging them in a specific pattern (algorithm?) to generate the order for that next stanza. Sam and I generated different 'moods' as each 'end-word' and switched between them according to the sestina's order. This piece brought up topics around the disconnection and disjointedness that can come from the rigid structures that shape our life.</p>",
+      description: "<p>El equipo Mignon compuesto por Erick Anderson (Product Owner), Sofía Barceló (Scrum Master), Benjamin Figeired, Lautaro Osinaga, Mainque Menjoulou y Juan Pablo Correa.</p>",
       outLink: "https://vimeo.com/401470006",
       media: "images/sestina-score.jpg"
     },
-    // {
-    //   title: "Is It You?",
-    //   description: "<p>Devised in collaboration with Charlotte Vail and Emily Soong. Is It You is a comical exploration of loneliness, friendship, online dating, and masculiinity.<p>",
-    //   media: "",
-    //   outLink: "https://vimeo.com/382508775",
-    // },
     {
-      title: "Logística",
-      description: "<p>Inspired by the creative process of Noa Zuk and Ohad Fishof, I generated an electronic rhythmic sequence with ML Magenta in Ableton and produced movement to that structure. I wanted to explore desire and trepidation, the moment of confidently shooting your shit with your crush and the following insecurity and trepidation. The process of seduction as a codified structured and yet endlessly variating performance.<p>",
+      title: "Herrajería",
+      description: "<p>El equipo \"Herrajeria 'La florida decoraciones'\" compuesto por Exequiel Herrera (Product Owner), Gabriel Gonzalez (Scrum Master), Thomas Ojeda, Carlos Aranda y Juan Martín Tripodi.<p>",
+      media: "images/or-what-score.jpg",
+      outLink: "https://vimeo.com/349680153"
+    },
+    {
+      title: "Logistica",
+      description: "<p>El equipo \"Logística 'El luchador'\" compuesto por Matias Guerrero (Product Owner), Bruno Guidi (Scrum Master), Belen Velazquez, Dana Alvarez Y Martinez y Matias Morandeira.<p>",
       media: "images/or-what-score.jpg",
       outLink: "https://vimeo.com/349680153"
     },
     {
       title: "Radio",
-      description: `<p>Presented at ADF. I created a model using a <a href="https://github.com/ibab/tensorflow-wavenet/" alt="Tensorflow Wavenet Github Repo" class="link">TensorFlow implementation of DeepMind's WaveNet paper</a>. I recorded myself reading passages from Virginia Wolf's <span class="underline">To The Lighthouse</span> and trained a model using a GPU EC2 instance on AWS. I trained the model for 99,999 iterations over the course of a week. I generated audio samples at different stages and used these audio samples to generate the final piece of music for the piece. The piece is a quartet, where each of the dancers/neurons takes on movement that I generated and interprets it at different stages, mapped onto a diagonal. The piece traces the non-linear nature of a machine learning model's training. Some checkpoints produce clearer vocalizations than others, seemingly "regressing" in the process, but those diversions are crucial pieces of the learning process.<p>`,
+      description: "<p>El equipo \"Radio Oteando desde el Carajo\" compuesto por Ezequiel Carbajo (Product Owner), Martin Visca (Scrum Master), Ariel Betino y Elias Gatica.<p>",
       media: "images/99-score.jpg",
       outLink: "https://vimeo.com/349680536",
     },
     {
       title: "Sarasa",
-      description: `<p>Presented at ADF. I created a model using a <a href="https://github.com/ibab/tensorflow-wavenet/" alt="Tensorflow Wavenet Github Repo" class="link">TensorFlow implementation of DeepMind's WaveNet paper</a>. I recorded myself reading passages from Virginia Wolf's <span class="underline">To The Lighthouse</span> and trained a model using a GPU EC2 instance on AWS. I trained the model for 99,999 iterations over the course of a week. I generated audio samples at different stages and used these audio samples to generate the final piece of music for the piece. The piece is a quartet, where each of the dancers/neurons takes on movement that I generated and interprets it at different stages, mapped onto a diagonal. The piece traces the non-linear nature of a machine learning model's training. Some checkpoints produce clearer vocalizations than others, seemingly "regressing" in the process, but those diversions are crucial pieces of the learning process.<p>`,
+      description: "<p>El equipo \"Sarasa Arquitectos\" compuesto por Galo Pianciola (Product Owner), Joaquin Saralegui (Product Manager), Palmira Benavente (Release Train Engineer), Nicolas Errea y Mauro Andres<p>",
       media: "images/99-score.jpg",
       outLink: "https://vimeo.com/349680536",
     },
     {
       title: "Persistencia",
-      description: `<p>Presented at ADF. I created a model using a <a href="https://github.com/ibab/tensorflow-wavenet/" alt="Tensorflow Wavenet Github Repo" class="link">TensorFlow implementation of DeepMind's WaveNet paper</a>. I recorded myself reading passages from Virginia Wolf's <span class="underline">To The Lighthouse</span> and trained a model using a GPU EC2 instance on AWS. I trained the model for 99,999 iterations over the course of a week. I generated audio samples at different stages and used these audio samples to generate the final piece of music for the piece. The piece is a quartet, where each of the dancers/neurons takes on movement that I generated and interprets it at different stages, mapped onto a diagonal. The piece traces the non-linear nature of a machine learning model's training. Some checkpoints produce clearer vocalizations than others, seemingly "regressing" in the process, but those diversions are crucial pieces of the learning process.<p>`,
+      description: "<p>El equipo de persistencia compuesto por Joaquin Mastropierro y Guido Chiara<p>",
       media: "images/99-score.jpg",
       outLink: "https://vimeo.com/349680536",
     },
-    // {
-    //   id: uid++,
-    //   title: "Concentric",
-    //   description: "",
-    //   media: ""
-    // }
   ]
 
   let uid = 1

@@ -8,12 +8,12 @@
   export let mediaWidth = '65%'
 
   const options = {
-    height: '390',
-    width: '640',
+    height: '365',
+    width: '600',
     //  see https://developers.google.com/youtube/player_parameters
-    playerVars: {
-      autoplay: 1
-    }
+    // playerVars: {
+    //   autoplay: 1
+    // }
   };
 
   function onReady(event) {
@@ -28,7 +28,7 @@
   in:fade={{delay: 300, duration: 500}} out:fade>
   <div class='media'>
     {#if media.videoId}
-      <YouTube videoId={media.videoId} />
+      <YouTube {options} videoId={media.videoId} />
     {:else}
       <img src={media} alt={header} />
     {/if}
@@ -69,6 +69,7 @@
     min-width: var(--media-width);
     box-sizing: border-box;
     padding: 20px;
+    margin: 20px;
     border-right: 1px solid black;
     display: flex;
     flex: 1;
@@ -88,7 +89,7 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    overflow: scroll;
+    overflow-y: auto;
   }
 
   .text {
