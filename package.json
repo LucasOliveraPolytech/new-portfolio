@@ -27,5 +27,17 @@
   "dependencies": {
     "sirv-cli": "^0.4.4",
     "svelte-routing": "^1.4.0"
-  }
+  },
+  "description": "Svelte app hosted with Zeit.",
+  "main": "rollup.config.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/LucasOliveraPolytech/new-portfolio.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/LucasOliveraPolytech/new-portfolio/issues"
+  },
+  "homepage": "https://github.com/LucasOliveraPolytech/new-portfolio#readme"
 }
